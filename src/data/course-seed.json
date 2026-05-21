@@ -1,0 +1,124 @@
+{
+  "users": [
+    {
+      "id": "demo-user",
+      "email": "aarav@bharatsmart.learn",
+      "full_name": "Aarav Sharma",
+      "password": "demo1234",
+      "preferred_categories": ["Technology", "Languages"],
+      "created_at": "2026-05-21T00:00:00.000Z"
+    }
+  ],
+  "courses": [
+    {
+      "id": "course-cs50-intro",
+      "title": "CS50 Introduction to Computer Science",
+      "description": "Harvard's famous beginner-friendly computer science course covering algorithms, memory, and problem solving.",
+      "thumbnail": "https://img.youtube.com/vi/8mAITcNt710/hqdefault.jpg",
+      "category": "Technology",
+      "provider": "Harvard",
+      "source_url": "https://cs50.harvard.edu/x/",
+      "created_at": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "course-html-css-freecodecamp",
+      "title": "Responsive Web Design",
+      "description": "freeCodeCamp's popular web design path covering HTML, CSS, accessibility, and real responsive layouts.",
+      "thumbnail": "https://img.youtube.com/vi/UB1O30fR-EE/hqdefault.jpg",
+      "category": "Technology",
+      "provider": "freeCodeCamp",
+      "source_url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+      "created_at": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "course-javascript-traversy",
+      "title": "Modern JavaScript From The Beginning",
+      "description": "A highly popular JavaScript course focused on fundamentals, DOM work, ES6 features, and real projects.",
+      "thumbnail": "https://img.youtube.com/vi/hdI2bqOjy3c/hqdefault.jpg",
+      "category": "Technology",
+      "provider": "Traversy Media",
+      "source_url": "https://traversymedia.com/",
+      "created_at": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "course-python-freecodecamp",
+      "title": "Python for Everybody",
+      "description": "A widely recommended beginner Python path covering syntax, data structures, web data, and practical programming habits.",
+      "thumbnail": "https://img.youtube.com/vi/8DvywoWv6fI/hqdefault.jpg",
+      "category": "Technology",
+      "provider": "freeCodeCamp",
+      "source_url": "https://www.freecodecamp.org/news/learn-python-free-python-courses-for-beginners/",
+      "created_at": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "course-react-traversy",
+      "title": "React Front to Back",
+      "description": "A project-focused React track that teaches components, hooks, routing, and app structure through build-alongs.",
+      "thumbnail": "https://img.youtube.com/vi/sBws8MSXN7A/hqdefault.jpg",
+      "category": "Technology",
+      "provider": "Traversy Media",
+      "source_url": "https://www.traversymedia.com/",
+      "created_at": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "course-sql-khanacademy",
+      "title": "Intro to SQL",
+      "description": "Khan Academy's practical SQL course for learning queries, filtering, grouping, and database basics.",
+      "thumbnail": "https://img.youtube.com/vi/HXV3zeQKqGY/hqdefault.jpg",
+      "category": "Technology",
+      "provider": "Khan Academy",
+      "source_url": "https://www.khanacademy.org/computing/computer-programming/sql",
+      "created_at": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "course-english-speaking",
+      "title": "English Speaking for Beginners",
+      "description": "A popular communication-focused path for pronunciation, fluency, and daily conversation practice.",
+      "thumbnail": "https://img.youtube.com/vi/fA5buq7y7_8/hqdefault.jpg",
+      "category": "Languages",
+      "provider": "British Council",
+      "source_url": "https://learnenglish.britishcouncil.org/",
+      "created_at": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "course-yoga-focus",
+      "title": "Yoga for Focus and Recovery",
+      "description": "Short guided sessions that pair breathing practice with movement, designed for daily learning balance.",
+      "thumbnail": "https://img.youtube.com/vi/ysz5S6PUM-U/hqdefault.jpg",
+      "category": "Ayurveda",
+      "provider": "YouTube",
+      "source_url": "https://www.youtube.com/@artofliving",
+      "created_at": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "course-indian-classical-arts",
+      "title": "Indian Classical Arts Essentials",
+      "description": "An approachable intro to rhythm, expression, and performance traditions from curated public lessons.",
+      "thumbnail": "https://img.youtube.com/vi/QH2-TGUlwu4/hqdefault.jpg",
+      "category": "Indian Arts",
+      "provider": "YouTube",
+      "source_url": "https://www.youtube.com/",
+      "created_at": "2026-05-21T00:00:00.000Z"
+    }
+  ],
+  "lectures": [
+    { "id": "lecture-cs50-1", "course_id": "course-cs50-intro", "title": "What is computer science?", "youtube_video_id": "8mAITcNt710", "order_index": 1 },
+    { "id": "lecture-cs50-2", "course_id": "course-cs50-intro", "title": "Programming basics and problem solving", "youtube_video_id": "xvFZjo5PgG0", "order_index": 2 },
+    { "id": "lecture-html-1", "course_id": "course-html-css-freecodecamp", "title": "HTML structure and semantic tags", "youtube_video_id": "UB1O30fR-EE", "order_index": 1 },
+    { "id": "lecture-html-2", "course_id": "course-html-css-freecodecamp", "title": "Responsive layouts with CSS", "youtube_video_id": "yfoY53QXEnI", "order_index": 2 },
+    { "id": "lecture-js-1", "course_id": "course-javascript-traversy", "title": "JavaScript fundamentals", "youtube_video_id": "hdI2bqOjy3c", "order_index": 1 },
+    { "id": "lecture-js-2", "course_id": "course-javascript-traversy", "title": "DOM, events, and browser APIs", "youtube_video_id": "hdI2bqOjy3c", "order_index": 2 },
+    { "id": "lecture-python-1", "course_id": "course-python-freecodecamp", "title": "Python syntax and data types", "youtube_video_id": "8DvywoWv6fI", "order_index": 1 },
+    { "id": "lecture-python-2", "course_id": "course-python-freecodecamp", "title": "Functions, modules, and files", "youtube_video_id": "8DvywoWv6fI", "order_index": 2 },
+    { "id": "lecture-react-1", "course_id": "course-react-traversy", "title": "React setup and components", "youtube_video_id": "sBws8MSXN7A", "order_index": 1 },
+    { "id": "lecture-react-2", "course_id": "course-react-traversy", "title": "State, hooks, and data flow", "youtube_video_id": "sBws8MSXN7A", "order_index": 2 },
+    { "id": "lecture-sql-1", "course_id": "course-sql-khanacademy", "title": "SQL queries and filters", "youtube_video_id": "HXV3zeQKqGY", "order_index": 1 },
+    { "id": "lecture-sql-2", "course_id": "course-sql-khanacademy", "title": "Joins and grouping", "youtube_video_id": "HXV3zeQKqGY", "order_index": 2 },
+    { "id": "lecture-english-1", "course_id": "course-english-speaking", "title": "Pronunciation and everyday phrases", "youtube_video_id": "fA5buq7y7_8", "order_index": 1 },
+    { "id": "lecture-english-2", "course_id": "course-english-speaking", "title": "Fluency practice and conversation", "youtube_video_id": "fA5buq7y7_8", "order_index": 2 },
+    { "id": "lecture-yoga-1", "course_id": "course-yoga-focus", "title": "Breathwork for steady attention", "youtube_video_id": "ysz5S6PUM-U", "order_index": 1 },
+    { "id": "lecture-yoga-2", "course_id": "course-yoga-focus", "title": "Mobility and recovery flow", "youtube_video_id": "aqz-KE-bpKQ", "order_index": 2 },
+    { "id": "lecture-arts-1", "course_id": "course-indian-classical-arts", "title": "Understanding rhythm patterns", "youtube_video_id": "QH2-TGUlwu4", "order_index": 1 },
+    { "id": "lecture-arts-2", "course_id": "course-indian-classical-arts", "title": "Story, gesture, and stage presence", "youtube_video_id": "M7lc1UVf-VE", "order_index": 2 }
+  ]
+}

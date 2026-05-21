@@ -1,0 +1,380 @@
+{
+  "users": [
+    {
+      "id": "demo-user",
+      "email": "aarav@bharatsmart.learn",
+      "full_name": "Aarav Sharma",
+      "preferred_categories": [
+        "Technology",
+        "Languages"
+      ],
+      "created_at": "2026-05-21T00:00:00.000Z",
+      "password_hash": "5de39b0a0389fb73b0b18f85459f2ef92f2fb712d0f4b642534f43806ffd41c72b0c54381a511d29bb69bce5be67bcc98a58da4f660d84c1ae5db98cd261cec1"
+    }
+  ],
+  "courses": [
+    {
+      "id": "course-ai-foundations",
+      "title": "AI Foundations with Python",
+      "description": "A free, practical starter course that introduces machine learning ideas, prompt design, and responsible AI workflows.",
+      "thumbnail": "https://img.youtube.com/vi/M7lc1UVf-VE/hqdefault.jpg",
+      "category": "Technology",
+      "provider": "YouTube",
+      "source_url": "https://www.youtube.com/@codewithharry",
+      "created_at": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "course-sanskrit-essentials",
+      "title": "Sanskrit Essentials for Beginners",
+      "description": "Build a strong foundation in pronunciation, grammar, and everyday reading with curated free YouTube lessons.",
+      "thumbnail": "https://img.youtube.com/vi/aqz-KE-bpKQ/hqdefault.jpg",
+      "category": "Languages",
+      "provider": "YouTube",
+      "source_url": "https://www.youtube.com/@codewithharry",
+      "created_at": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "course-javascript-codewithharry",
+      "title": "JavaScript Tutorial by CodeWithHarry",
+      "description": "A playlist-style coding track that walks through JavaScript fundamentals, data structures, DOM, and objects in a structured order.",
+      "thumbnail": "https://www.codewithharry.com/img/notes/js.webp",
+      "category": "Technology",
+      "provider": "CodeWithHarry",
+      "source_url": "https://www.codewithharry.com/tutorial/overview/js",
+      "created_at": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "course-python-codewithharry",
+      "title": "Python Tutorial by CodeWithHarry",
+      "description": "A beginner-friendly playlist-style Python course covering syntax, data types, control flow, OOP, modules, and file handling.",
+      "thumbnail": "https://www.codewithharry.com/img/notes/python.webp",
+      "category": "Technology",
+      "provider": "CodeWithHarry",
+      "source_url": "https://www.codewithharry.com/tutorial/overview/python",
+      "created_at": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "course-cpp-codewithharry",
+      "title": "C++ Tutorial by CodeWithHarry",
+      "description": "A structured C++ learning path covering basics, pointers, OOP, file handling, and STL with a course-like flow.",
+      "thumbnail": "https://www.codewithharry.com/img/notes/cpp.webp",
+      "category": "Technology",
+      "provider": "CodeWithHarry",
+      "source_url": "https://www.codewithharry.com/tutorial/overview/cplusplus-overview",
+      "created_at": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "course-react-codewithharry",
+      "title": "React Tutorial by CodeWithHarry",
+      "description": "A practical course path for modern React learners with components, state, props, hooks, and project-based lessons.",
+      "thumbnail": "https://www.codewithharry.com/img/notes/reactjs.webp",
+      "category": "Technology",
+      "provider": "CodeWithHarry",
+      "source_url": "https://www.codewithharry.com/tutorial/overview/the-introduction-to-react",
+      "created_at": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "course-dsa-codewithharry",
+      "title": "Data Structures & Algorithms by CodeWithHarry",
+      "description": "A deeper interview-focused course track with arrays, recursion, linked lists, trees, graphs, and problem solving.",
+      "thumbnail": "https://www.codewithharry.com/_next/image?url=%2Fcoding%2F3.jpg&w=1080&q=75",
+      "category": "Technology",
+      "provider": "CodeWithHarry",
+      "source_url": "https://www.codewithharry.com/courses",
+      "created_at": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "course-yoga-focus",
+      "title": "Yoga for Focus and Recovery",
+      "description": "Short guided sessions that pair breathing practice with movement, designed for daily learning balance.",
+      "thumbnail": "https://img.youtube.com/vi/ysz5S6PUM-U/hqdefault.jpg",
+      "category": "Ayurveda",
+      "created_at": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "id": "course-creative-rhythm",
+      "title": "Indian Arts and Creative Rhythm",
+      "description": "Explore classical rhythm, structure, and visual storytelling through free public lectures and performances.",
+      "thumbnail": "https://img.youtube.com/vi/QH2-TGUlwu4/hqdefault.jpg",
+      "category": "Indian Arts",
+      "created_at": "2026-05-21T00:00:00.000Z"
+    }
+  ],
+  "lectures": [
+    {
+      "id": "lecture-ai-1",
+      "course_id": "course-ai-foundations",
+      "title": "How modern AI products are built",
+      "youtube_video_id": "M7lc1UVf-VE",
+      "order_index": 1
+    },
+    {
+      "id": "lecture-ai-2",
+      "course_id": "course-ai-foundations",
+      "title": "Data, models, and prompts",
+      "youtube_video_id": "aqz-KE-bpKQ",
+      "order_index": 2
+    },
+    {
+      "id": "lecture-sanskrit-1",
+      "course_id": "course-sanskrit-essentials",
+      "title": "Pronunciation and script basics",
+      "youtube_video_id": "ysz5S6PUM-U",
+      "order_index": 1
+    },
+    {
+      "id": "lecture-js-1",
+      "course_id": "course-javascript-codewithharry",
+      "title": "Getting started with JavaScript",
+      "youtube_video_id": "QH2-TGUlwu4",
+      "order_index": 1
+    },
+    {
+      "id": "lecture-js-2",
+      "course_id": "course-javascript-codewithharry",
+      "title": "JavaScript fundamentals and data types",
+      "youtube_video_id": "M7lc1UVf-VE",
+      "order_index": 2
+    },
+    {
+      "id": "lecture-js-3",
+      "course_id": "course-javascript-codewithharry",
+      "title": "Objects, arrays, and working with data",
+      "youtube_video_id": "aqz-KE-bpKQ",
+      "order_index": 3
+    },
+    {
+      "id": "lecture-js-4",
+      "course_id": "course-javascript-codewithharry",
+      "title": "DOM and browser events",
+      "youtube_video_id": "QH2-TGUlwu4",
+      "order_index": 4
+    },
+    {
+      "id": "lecture-js-5",
+      "course_id": "course-javascript-codewithharry",
+      "title": "Functions and closures",
+      "youtube_video_id": "M7lc1UVf-VE",
+      "order_index": 5
+    },
+    {
+      "id": "lecture-js-6",
+      "course_id": "course-javascript-codewithharry",
+      "title": "JavaScript mini project",
+      "youtube_video_id": "aqz-KE-bpKQ",
+      "order_index": 6
+    },
+    {
+      "id": "lecture-python-1",
+      "course_id": "course-python-codewithharry",
+      "title": "Python introduction and setup",
+      "youtube_video_id": "M7lc1UVf-VE",
+      "order_index": 1
+    },
+    {
+      "id": "lecture-python-2",
+      "course_id": "course-python-codewithharry",
+      "title": "Python data types and operators",
+      "youtube_video_id": "aqz-KE-bpKQ",
+      "order_index": 2
+    },
+    {
+      "id": "lecture-python-3",
+      "course_id": "course-python-codewithharry",
+      "title": "Strings, lists, tuples, and dictionaries",
+      "youtube_video_id": "ysz5S6PUM-U",
+      "order_index": 3
+    },
+    {
+      "id": "lecture-python-4",
+      "course_id": "course-python-codewithharry",
+      "title": "Conditionals, loops, and functions",
+      "youtube_video_id": "QH2-TGUlwu4",
+      "order_index": 4
+    },
+    {
+      "id": "lecture-python-5",
+      "course_id": "course-python-codewithharry",
+      "title": "Modules, OOP, and file handling",
+      "youtube_video_id": "M7lc1UVf-VE",
+      "order_index": 5
+    },
+    {
+      "id": "lecture-python-6",
+      "course_id": "course-python-codewithharry",
+      "title": "Python projects and practice",
+      "youtube_video_id": "aqz-KE-bpKQ",
+      "order_index": 6
+    },
+    {
+      "id": "lecture-cpp-1",
+      "course_id": "course-cpp-codewithharry",
+      "title": "C++ basics and setup",
+      "youtube_video_id": "M7lc1UVf-VE",
+      "order_index": 1
+    },
+    {
+      "id": "lecture-cpp-2",
+      "course_id": "course-cpp-codewithharry",
+      "title": "Control flow and iteration",
+      "youtube_video_id": "aqz-KE-bpKQ",
+      "order_index": 2
+    },
+    {
+      "id": "lecture-cpp-3",
+      "course_id": "course-cpp-codewithharry",
+      "title": "Functions, arrays, and strings",
+      "youtube_video_id": "ysz5S6PUM-U",
+      "order_index": 3
+    },
+    {
+      "id": "lecture-cpp-4",
+      "course_id": "course-cpp-codewithharry",
+      "title": "Pointers and memory",
+      "youtube_video_id": "QH2-TGUlwu4",
+      "order_index": 4
+    },
+    {
+      "id": "lecture-cpp-5",
+      "course_id": "course-cpp-codewithharry",
+      "title": "OOP and file handling",
+      "youtube_video_id": "M7lc1UVf-VE",
+      "order_index": 5
+    },
+    {
+      "id": "lecture-cpp-6",
+      "course_id": "course-cpp-codewithharry",
+      "title": "STL and problem solving",
+      "youtube_video_id": "aqz-KE-bpKQ",
+      "order_index": 6
+    },
+    {
+      "id": "lecture-react-1",
+      "course_id": "course-react-codewithharry",
+      "title": "React introduction and project setup",
+      "youtube_video_id": "M7lc1UVf-VE",
+      "order_index": 1
+    },
+    {
+      "id": "lecture-react-2",
+      "course_id": "course-react-codewithharry",
+      "title": "Components and props",
+      "youtube_video_id": "aqz-KE-bpKQ",
+      "order_index": 2
+    },
+    {
+      "id": "lecture-react-3",
+      "course_id": "course-react-codewithharry",
+      "title": "State, events, and forms",
+      "youtube_video_id": "ysz5S6PUM-U",
+      "order_index": 3
+    },
+    {
+      "id": "lecture-react-4",
+      "course_id": "course-react-codewithharry",
+      "title": "Hooks and data fetching",
+      "youtube_video_id": "QH2-TGUlwu4",
+      "order_index": 4
+    },
+    {
+      "id": "lecture-react-5",
+      "course_id": "course-react-codewithharry",
+      "title": "Routing and app architecture",
+      "youtube_video_id": "M7lc1UVf-VE",
+      "order_index": 5
+    },
+    {
+      "id": "lecture-react-6",
+      "course_id": "course-react-codewithharry",
+      "title": "React course project",
+      "youtube_video_id": "aqz-KE-bpKQ",
+      "order_index": 6
+    },
+    {
+      "id": "lecture-dsa-1",
+      "course_id": "course-dsa-codewithharry",
+      "title": "Complexity and problem solving",
+      "youtube_video_id": "M7lc1UVf-VE",
+      "order_index": 1
+    },
+    {
+      "id": "lecture-dsa-2",
+      "course_id": "course-dsa-codewithharry",
+      "title": "Arrays and strings",
+      "youtube_video_id": "aqz-KE-bpKQ",
+      "order_index": 2
+    },
+    {
+      "id": "lecture-dsa-3",
+      "course_id": "course-dsa-codewithharry",
+      "title": "Linked lists and recursion",
+      "youtube_video_id": "ysz5S6PUM-U",
+      "order_index": 3
+    },
+    {
+      "id": "lecture-dsa-4",
+      "course_id": "course-dsa-codewithharry",
+      "title": "Trees and graphs",
+      "youtube_video_id": "QH2-TGUlwu4",
+      "order_index": 4
+    },
+    {
+      "id": "lecture-dsa-5",
+      "course_id": "course-dsa-codewithharry",
+      "title": "Dynamic programming",
+      "youtube_video_id": "M7lc1UVf-VE",
+      "order_index": 5
+    },
+    {
+      "id": "lecture-dsa-6",
+      "course_id": "course-dsa-codewithharry",
+      "title": "Interview practice track",
+      "youtube_video_id": "aqz-KE-bpKQ",
+      "order_index": 6
+    },
+    {
+      "id": "lecture-sanskrit-2",
+      "course_id": "course-sanskrit-essentials",
+      "title": "Reading simple sentences",
+      "youtube_video_id": "QH2-TGUlwu4",
+      "order_index": 2
+    },
+    {
+      "id": "lecture-yoga-1",
+      "course_id": "course-yoga-focus",
+      "title": "Breathwork for steady attention",
+      "youtube_video_id": "M7lc1UVf-VE",
+      "order_index": 1
+    },
+    {
+      "id": "lecture-yoga-2",
+      "course_id": "course-yoga-focus",
+      "title": "Mobility and recovery flow",
+      "youtube_video_id": "aqz-KE-bpKQ",
+      "order_index": 2
+    },
+    {
+      "id": "lecture-arts-1",
+      "course_id": "course-creative-rhythm",
+      "title": "Understanding rhythm patterns",
+      "youtube_video_id": "ysz5S6PUM-U",
+      "order_index": 1
+    },
+    {
+      "id": "lecture-arts-2",
+      "course_id": "course-creative-rhythm",
+      "title": "Story, gesture, and stage presence",
+      "youtube_video_id": "QH2-TGUlwu4",
+      "order_index": 2
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "ddb1ff06-3e54-484a-95e2-230a20c9c264",
+      "user_id": "demo-user",
+      "course_id": "course-sanskrit-essentials",
+      "enrolled_at": "2026-05-21T09:01:43.798Z"
+    }
+  ],
+  "progress": []
+}
